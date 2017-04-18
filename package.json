@@ -1,0 +1,19 @@
+{
+  "name": "react-is-class",
+  "version": "1.0.0",
+  "description": "A function to check whether a component is a class or a functional component",
+  "main": "index.js",
+  "repository": "git@github.com:troch/react-is-class.git",
+  "author": "Thomas Roch <thomas.c.roch@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "babel-node src/test.js",
+    "build": "babel src/index.js -o index.js",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "babel-core": "~6.24.1",
+    "babel-preset-es2015": "~6.24.1",
+    "react": "~15.5.4"
+  }
+}
