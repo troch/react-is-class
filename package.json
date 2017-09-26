@@ -1,6 +1,6 @@
 {
   "name": "react-is-class",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A function to check whether a component is a class or a functional component",
   "main": "index.js",
   "repository": "git@github.com:troch/react-is-class.git",
@@ -15,5 +15,8 @@
     "babel-core": "~6.26.0",
     "babel-preset-env": "~1.6.0",
     "react": "~16.0.0"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0"
   }
 }
